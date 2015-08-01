@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+.left {
+    float: none;
+}
+.accordion-container {
+	min-width: 320px;
+    width: auto;
+}
+.accordion-container .thumbnail {
+    display: inline-block;
+    margin: 10px auto;
+	text-align: center;
+    width: 32%;
+}
+
+/** SLIDER STYLES **/
+/** SLIDER STYLES **/
+
+.slider-container {
+    width: 100%;
+}
+.details {
+    width: 80%;
+}
+.details img {
+	height: auto;
+    width: 100%;
+}
+.slider-container a.next {
+    top: 40%;
+}
+.slider-container a.prev {
+    top: 40%;
+}

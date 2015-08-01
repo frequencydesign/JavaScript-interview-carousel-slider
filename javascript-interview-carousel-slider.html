@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Interview Javascript Carousel Slider</title>
+	<meta name="viewport" content="initial-scale=1, user-scalable=no">
+	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="css/javascript-interview-carousel-general-styles.css" rel="stylesheet" type="text/css">
+	<link href="css/javascript-interview-carousel.css" rel="stylesheet" type="text/css">
+
+	<link href="css/mobile.css" media="(max-width:768px)" rel="stylesheet" type="text/css">
+</head>
+
+<body onload="showSlide(0)">
+<div class="main-content">
+	<div class="left">
+		<div class="accordion-container shadow rounded-corners">
+			<div id="panel-1" class="panel-container open-panel">
+				<div onclick="openPanel1();return false;" class="header-content">
+					<h4 class="panel-title">Dogs</h4>
+				</div>
+				<div class="body-content">
+					<div id="slide-1" class="body-slide">
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage selected" src="assets/dog1t.jpg"></div>
+						</div>
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/dog2t.jpg"></div>
+						</div>
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/dog3t.jpg"></div>
+						</div>
+						<div class="page-chapters">
+							<div onclick="showSlide(0);return false;" class="page active"></div>
+							<div onclick="showSlide(3);return false;" class="page"></div>
+							<div onclick="showSlide(6);return false;" class="page"></div>
+						</div>
+					</div>
+					<div id="slide-2" class="body-slide">
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/dog4t.jpg"></div>
+						</div>
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/dog5t.jpg"></div>
+						</div>
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/dog6t.jpg"></div>
+						</div>
+						<div class="page-chapters">
+							<div onclick="showSlide(0);return false;" class="page"></div>
+							<div onclick="showSlide(3);return false;" class="page active"></div>
+							<div onclick="showSlide(6);return false;" class="page"></div>
+						</div>
+					</div>
+					<div id="slide-3" class="body-slide">
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/dog7t.jpg"></div>
+						</div>
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/dog8t.jpg"></div>
+						</div>
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/dog9t.jpg"></div>
+						</div>
+						<div class="page-chapters">
+							<div onclick="showSlide(0);return false;" class="page"></div>
+							<div onclick="showSlide(3);return false;" class="page"></div>
+							<div onclick="showSlide(6);return false;" class="page active"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-container shadow rounded-corners">
+			<div id="panel-2" class="panel-container close-panel">
+				<div onclick="openPanel2();return false;" class="header-content">
+					<h4 class="panel-title">Rabbits</h4>
+				</div>
+				<div class="body-content">
+					<div id="slide-1" class="body-slide">
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/rabbit1t.jpg"></div>
+						</div>
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/rabbit2t.jpg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="accordion-container shadow rounded-corners">
+			<div id="panel-3" class="panel-container close-panel">
+				<div onclick="openPanel3();return false;" class="header-content">
+					<h4 class="panel-title">Giraffes</h4>
+				</div>
+				<div class="body-content">
+					<div id="slide-1" class="body-slide">
+						<div class="accordion-item">
+							<div class="thumbnail"><img class="thumbnailImage" src="assets/giraffe1t.jpg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="right">
+		<div class="slider-container shadow rounded-corners">
+			<div class="slider-content">
+				<a onclick="next();return false;" class="next" href="#" title="next item">next item</a>
+				<a onclick="previous();return false;" class="prev" href="#" title="previous item">previous item</a>
+				<div class="slider-item">
+					<div class="details"><img id="detailsImg" src="assets/dog1.jpg"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+	<script src="js/javascript-interview-carousel.js" language="javascript" type="text/javascript"></script>
+
+
+</body>
+
+</html>
