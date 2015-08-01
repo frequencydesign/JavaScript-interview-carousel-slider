@@ -11,7 +11,7 @@ You have 4 hours to complete this. Here's a computer with a basic text editor.
 
 Good luck.
 
-###My Result
+###My Result - I got the offer
 I finished on-time. Later that week, I got the offer.
 
 I ultimately passed on the position because the offer and the responsibility could not stand-up to my current position.
