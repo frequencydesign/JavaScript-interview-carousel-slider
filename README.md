@@ -23,7 +23,7 @@ They mentioned bonus points for having made a sprite of the navigation assets, m
  * Create an accordion which displays 3 thumbnails of each asset type at a time, with a total of 3 accordion tabs
  * Each accordion tab should open to the asset type being displayed in the carousel, and close the other accordion tabs
  * Clicking on an item in the accordion should replace the item in the carousel with that item, and the carousel should continue to the next item accordingly
- * Styles and hover states should align with the example mock-up image
+ * CSS the whole thing. Styles and hover states should align with the example mock-up image
 
 ####Assets Provided
  * Mock-up image
