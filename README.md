@@ -7,7 +7,7 @@ I wrote the CSS, the JavaScript (no frameworks) and the HTML. I only switched ou
 ###The Interview Conditions
 The interview was pretty straight forward. Three 30 minute 2-person panel interviews and one 20 minute VP of Technology interview, followed by a programming test. Build a carousel using the assets and instructions given.
 
-You have 4 hours to complete this. Here's a computer with a basic text editor.
+You have 4 hours to complete this. Here's a computer with a basic text editor and internet.
 
 Good luck.
 
