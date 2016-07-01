@@ -1,4 +1,4 @@
-## JavaScript Developer Code Test / Code Challenge 
+## JavaScript Interview Code Test / Code Challenge 
 
 ###Pure JavaScript Carousel/Slider with Accordion Previewer from 2013 Interview
 A copy of a pure JavaScript carousel which I was asked to do in 4 hours at an interview in 2013. I'm posting it to share and to give anyone something to practice before an interview.
